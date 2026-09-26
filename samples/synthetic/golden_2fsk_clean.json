@@ -1,0 +1,23 @@
+{
+  "modulation": "2-FSK",
+  "sample_rate": 48000.0,
+  "samples_per_symbol": 16,
+  "symbol_rate": 3000.0,
+  "frequency_deviation_hz": 1500.0,
+  "cfo": 15.0,
+  "phase": 0.0,
+  "snr_db": 22.0,
+  "interleaver": {
+    "type": "none"
+  },
+  "fec": {
+    "type": "none"
+  },
+  "preamble": {
+    "name": "SYNC_16",
+    "hex": "aa55",
+    "length": 16
+  },
+  "payload": "2FSK_ROBUST_TACTICAL_TELEMETRY",
+  "payload_bits_count": 240
+}

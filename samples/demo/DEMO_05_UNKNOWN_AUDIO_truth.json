@@ -1,0 +1,13 @@
+{
+  "file": "DEMO_05_UNKNOWN_AUDIO.wav",
+  "signal_nature": "Real-world analog voice / audio recording",
+  "modulation": "UNKNOWN",
+  "samples_per_symbol": null,
+  "fec": "none",
+  "interleaver": "none",
+  "preamble": "none",
+  "expected_result": "UNKNOWN",
+  "expected_confidence": 0.0,
+  "expected_status": "NON_DIGITAL_REJECTED",
+  "note": "Evaluator ground truth: must reject as non-digital with 0.0% confidence."
+}

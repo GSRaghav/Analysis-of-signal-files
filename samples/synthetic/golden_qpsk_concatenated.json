@@ -1,0 +1,26 @@
+{
+  "modulation": "QPSK",
+  "sample_rate": 64000.0,
+  "samples_per_symbol": 8,
+  "symbol_rate": 8000.0,
+  "cfo": -35.0,
+  "phase": -0.3,
+  "snr_db": 25.0,
+  "interleaver": {
+    "type": "block",
+    "rows": 8,
+    "cols": 8
+  },
+  "fec": {
+    "type": "concatenated",
+    "outer": "reed_solomon_nsym4",
+    "inner": "convolutional_k7"
+  },
+  "preamble": {
+    "name": "CCSDS_32",
+    "hex": "1acffc1d",
+    "length": 32
+  },
+  "payload": "NTRO_SIH_QPSK_SECURE_PAYLOAD_DATA",
+  "payload_bits_count": 264
+}

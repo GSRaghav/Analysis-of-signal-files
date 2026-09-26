@@ -1,0 +1,30 @@
+{
+  "modulation": "16-QAM",
+  "sample_rate": 64000.0,
+  "samples_per_symbol": 8,
+  "symbol_rate": 8000.0,
+  "cfo": 25.0,
+  "phase": 0.2,
+  "snr_db": 30.0,
+  "interleaver": {
+    "type": "diagonal",
+    "rows": 8,
+    "cols": 8
+  },
+  "fec": {
+    "type": "convolutional",
+    "poly": [
+      171,
+      133
+    ],
+    "k": 7,
+    "rate": "1/2"
+  },
+  "preamble": {
+    "name": "SYNC_16",
+    "hex": "aa55",
+    "length": 16
+  },
+  "payload": "16QAM_CONSTELLATION_HIGH_RATE_DATA",
+  "payload_bits_count": 272
+}
